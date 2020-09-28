@@ -1,4 +1,7 @@
-import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/bootstrap-overrides.css';
+import '../styles/globals.css';
+import '../styles/icons';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
