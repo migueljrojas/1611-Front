@@ -31,7 +31,7 @@ export default function Home({ homeData }) {
 
 export async function getStaticProps() {
   // Call an external API endpoint to get posts
-  const res = await fetch('http://localhost:1337/home')
+  const res = await fetch('https://dieciseisonce.herokuapp.com/home')
   const homeData = await res.json()
 
   // By returning { props: posts }, the Blog component

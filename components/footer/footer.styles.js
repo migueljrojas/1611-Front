@@ -13,8 +13,8 @@ const FooterComponent = styled.footer`
   padding: 50px 0 30px;
 
   @media (min-width: 760px) {
-    padding: 30px 0;
-    height: 150px;
+    padding: 50px 0 0;
+    min-height: 200px;
   }
 
   .row {
